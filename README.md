@@ -1,42 +1,29 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## 32 - Dynamic Forms
 
-### Author: Student/Group Name
+### Author: Heather Cherewaty
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/hcherewaty/32-dynamic-forms)
+* [Code Sandbox](https://codesandbox.io/s/o4pw74pq4y)
+
 
 ### Modules
-#### `modulename.js`
+#### `index.js` for code sandbox
 ##### Exported Values and Methods
+* Connection to sandbox app upon visiting link established in Links and Resources.
+* Content is rendered onto index.html by way of import of app.js onto index.js.
+* Components (`Details`, `If`, `Then`, `Else`, `App`, `Player`) defined in components directory.
+* Middleware (`reporter.js`) defined in store/middleware directory.
+* Redux store, actions, and reducers defined in store directory.
+* Data for forms and routes brought in from `players.json` and `schema.json`.
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* The react apps will start and load once the sandbox link is visited.
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![Whiteboard](dynamic_forms.jpg)
